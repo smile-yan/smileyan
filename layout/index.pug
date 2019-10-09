@@ -28,7 +28,8 @@ block content
           != post.excerpt
       else if post.content
         - var br = 0
-        - for (var i = 0; i < 5; ++i) {
+        - var num = theme.excerpt_length
+        - for (var i = 0; i < num; i++) {
           - br = post.content.indexOf('\n',br+1)
           if br<0
             - break
@@ -53,3 +54,5 @@ block content
     include _partial/mathjax.pug
   if config.mathjax2
     include _partial/mathjax2.pug
+  if theme.canvas_nest.enable
+    script#canvas(src='js/canvas-nest.js' color=theme.canvas_nest.color opacity=theme.canvas_nest.opacity zIndex=theme.canvas_nest.zIndex count=theme.canvas_nest.count )
