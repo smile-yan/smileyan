@@ -42,10 +42,10 @@ busuanzi: false ## If you want to use Busuanzi page views please set the value t
 wordcount: false ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 canvas_nest:
-  enable: true## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
+  enable: true ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
   color: "10,0,0" ## RGB value of the color, e.g. "100,99,98"
   opacity: "0.7" ## Transparency of lines, e.g. "0.7"
-  zIndex: "-3"## The z-index property of the background, e.g. "-1"
+  zIndex: "-3" ## The z-index property of the background, e.g. "-1"
   count: "90" ## Quantity of lines, e.g. "150"
   color: ## RGB value of the color, e.g. "100,99,98"
   opacity: ## Transparency of lines, e.g. "0.7"
