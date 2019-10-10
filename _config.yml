@@ -43,17 +43,15 @@ wordcount: false ## If you want to display the word counter and the reading time
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 canvas_nest:
   enable: true## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
-<<<<<<< HEAD
   color: "10,0,0" ## RGB value of the color, e.g. "100,99,98"
   opacity: "0.7" ## Transparency of lines, e.g. "0.7"
   zIndex: "-3"## The z-index property of the background, e.g. "-1"
   count: "90" ## Quantity of lines, e.g. "150"
-=======
   color: ## RGB value of the color, e.g. "100,99,98"
   opacity: ## Transparency of lines, e.g. "0.7"
   zIndex: ## The z-index property of the background, e.g. "-1"
   count:  ## Quantity of lines, e.g. "150"
->>>>>>> d75b692232ad20e00a08588b7f663c863591a805
+
 donate:
   enable: false ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
   github: ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
