@@ -32,6 +32,19 @@ body {
     max-width: 1150px;
     margin: 0 auto;
 }
+// added by smileyan
+kbd {
+    padding: 2px 8px;
+    border: 1px solid rgba(63,63,63,.25);
+    box-shadow: 0 1px 0 rgba(63,63,63,.25);
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 2px;
+    white-space: nowrap;
+}
+
 .content_container {
     padding-right: 50px;
     padding-top: 20px;
